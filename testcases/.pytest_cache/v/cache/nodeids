@@ -1,0 +1,11 @@
+[
+  "detailedreporttc.py::test_homePage",
+  "test_detailedreporttc.py::Test002_Report::test_Featrebuttonclickable",
+  "test_detailedreporttc.py::Test002_Report::test_dash",
+  "test_detailedreporttc.py::Test002_Report::test_datetime",
+  "test_detailedreporttc.py::Test002_Report::test_detailedreport_features",
+  "test_detailedreporttc.py::test_dash",
+  "test_detailedreporttc.py::test_homePage",
+  "test_login.py::Test_001_Login::test_homePageTitle",
+  "test_login.py::test_homePage"
+]
