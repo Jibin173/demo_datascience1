@@ -4,7 +4,5 @@
   "test_detailedreporttc.py::test_homePage": true,
   "test_detailedreporttc.py::test_dash": true,
   "test_detailedreporttc.py::Test002_Report::test_detailedreport_features": true,
-  "test_detailedreporttc.py::Test002_Report::test_dash": true,
-  "test_detailedreporttc.py::Test002_Report::test_Featrebuttonclickable": true,
-  "test_login.py::Test_001_Login::test_homePageTitle": true
+  "test_detailedreporttc.py::Test002_Report::test_dash": true
 }
