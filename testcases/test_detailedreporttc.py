@@ -19,7 +19,7 @@ class Test002_Report:
          self.dt = DetailedReport(self.driver)
          self.dt.datetimepicker(setup)
 
-    @pytest.mark.smoke
+    @pytest.mark.regression
     def test_Featrebuttonclickable(self, setup):
         self.logger.info("****Started Home page title test ****")
         self.driver = setup
