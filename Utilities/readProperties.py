@@ -1,9 +1,8 @@
 import configparser
 
-import mysql
-import mysql.connector as connector
+
 config=configparser.RawConfigParser()
-config.read("E:\\framework\\Configuration\\config.ini")
+config.read("E:\\demo_datascience\\Configuration\\config.ini")
 
 class ReadConfig:
     @staticmethod
@@ -21,5 +20,22 @@ class ReadConfig:
         password=config.get('common info','password')
         return password
 
+    @staticmethod
+    def getairflow():
+        airflow=config.get('common info','airflowURL')
+        return airflow
 
+    @staticmethod
+    def versionairflow():
+        version1=config.get('common info','version')
+        return version1
 
+    @staticmethod
+    def getgrafanaurl():
+        airflow=config.get('common info','fan')
+        return airflow
+
+    @staticmethod
+    def getgrafanaurlevent():
+        airflow=config.get('common info','fanaevent')
+        return airflow

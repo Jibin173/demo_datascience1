@@ -11,7 +11,7 @@ class Test_001_Login:
     password = ReadConfig.getPassword()
     logger = LogGen.loggen()
 
-    @pytest.mark.regression
+
     def test_homePageTitle(self, setup):
         self.logger.info("*************** Test_001_Login *****************")
         self.logger.info("****Started Home page title test ****")
@@ -29,4 +29,12 @@ class Test_001_Login:
             print("Both the script din't returned similar value")
 
 
+    def test_to_verify_the_no_dVR_in_dashboard(self, setup):
 
+        self.logger.info("*************** Test_003_test_to_verify_the_no_DVR_in_Dashboard*****************")
+        self.logger.info("****Started Home page title test ****")
+        self.driver = setup
+        self.logger.info("****Opening URL****")
+        self.driver.get(self.baseURL)
+        self.dt = Dashboard(self.driver)
+        self.dt.DVR_Avaialability()

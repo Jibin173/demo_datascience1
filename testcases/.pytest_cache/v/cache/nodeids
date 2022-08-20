@@ -1,5 +1,20 @@
 [
   "detailedreporttc.py::test_homePage",
+  "test_AirFlow.py::Test_AirFlow::test_01_To_verify_that_the_Airflow_is_available_on_Web",
+  "test_AirFlow.py::Test_AirFlow::test_02_To_verify_that_user_is_able_to_login_the_Airflow_application_with_valid_credentials",
+  "test_AirFlow.py::Test_AirFlow::test_03_To_verify_that_required_dags_are_available_in_the_dashboard",
+  "test_AirFlow.py::Test_AirFlow::test_04_To_verify_that_the_Airflow_is_available_on_Web",
+  "test_AirFlow.py::Test_AirFlow::test_04_To_verify_the_version_of_the_Airflow",
+  "test_AirFlow.py::Test_AirFlow::test_05_To_verify_that_user_is_able_to_login_the_Airflow_application_with_valid_credentials",
+  "test_AirFlow.py::Test_AirFlow::test_06_To_verify_that_required_dags_are_available_in_the_dashboard",
+  "test_AirFlow.py::Test_AirFlow::test_07_To_verify_the_version_of_the_Airflow",
+  "test_Clickhouse.py::Test_Clickhouse::test_01_To_verify_that_connection_towards_clickhouse_is_available",
+  "test_Clickhouse.py::Test_Clickhouse::test_02_To_verify_that_required_Schema_is_available",
+  "test_Clickhouse.py::Test_Clickhouse::test_08_To_verify_that_connection_towards_clickhouse_is_available",
+  "test_Clickhouse.py::Test_Clickhouse::test_09_To_verify_that_required_Schema_is_available",
+  "test_Grafana.py::Test_Grafana::test_01_To_verify_that_Grafana_is_up_and_available_in_web",
+  "test_Grafana.py::Test_Grafana::test_02_To_verify_that_after_providing_valid_credentials_user_is_able_to_login_the_grafana_dashboard",
+  "test_Grafana.py::Test_Grafana::test_03_To_verify_that_summary_dashboard_should_be_available",
   "test_detailedreporttc.py::Test002_Report::test_Featrebuttonclickable",
   "test_detailedreporttc.py::Test002_Report::test_dash",
   "test_detailedreporttc.py::Test002_Report::test_datetime",
@@ -7,5 +22,7 @@
   "test_detailedreporttc.py::test_dash",
   "test_detailedreporttc.py::test_homePage",
   "test_login.py::Test_001_Login::test_homePageTitle",
+  "test_login.py::Test_001_Login::test_to_verify_the_no_DVR_in_Dashboard",
+  "test_login.py::Test_001_Login::test_to_verify_the_no_dVR_in_dashboard",
   "test_login.py::test_homePage"
 ]

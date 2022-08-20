@@ -4,5 +4,12 @@
   "test_detailedreporttc.py::test_homePage": true,
   "test_detailedreporttc.py::test_dash": true,
   "test_detailedreporttc.py::Test002_Report::test_detailedreport_features": true,
-  "test_detailedreporttc.py::Test002_Report::test_dash": true
+  "test_detailedreporttc.py::Test002_Report::test_dash": true,
+  "test_login.py::Test_001_Login::test_to_verify_the_no_DVR_in_Dashboard": true,
+  "test_detailedreporttc.py::Test002_Report::test_Featrebuttonclickable": true,
+  "test_detailedreporttc.py::Test002_Report::test_datetime": true,
+  "test_login.py::Test_001_Login::test_homePageTitle": true,
+  "test_login.py::Test_001_Login::test_to_verify_the_no_dVR_in_dashboard": true,
+  "test_login_ddt.py::Test_002_DDT_Login::test_login_ddt": true,
+  "test_Grafana.py::Test_Grafana::test_03_To_verify_that_summary_dashboard_should_be_available": true
 }

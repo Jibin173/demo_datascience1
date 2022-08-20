@@ -10,7 +10,7 @@ class Test002_Report:
     username = ReadConfig.getUseremail()
     password = ReadConfig.getPassword()
     logger = LogGen.loggen()
-    @pytest.mark.smoke
+
     def test_dash(self, setup):
          self.logger.info("****Started Home page title test ****")
          self.driver = setup
@@ -19,7 +19,7 @@ class Test002_Report:
          self.dt = DetailedReport(self.driver)
          self.dt.datetimepicker(setup)
 
-    @pytest.mark.regression
+
     def test_Featrebuttonclickable(self, setup):
         self.logger.info("****Started Home page title test ****")
         self.driver = setup
@@ -30,7 +30,7 @@ class Test002_Report:
         self.dt.button_clickable(setup)
 
 
-    @pytest.mark.regression
+
     def test_datetime(self,setup):
         self.logger.info("****Started Home page title test ****")
         self.driver = setup

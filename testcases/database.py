@@ -1,7 +1,8 @@
 import mysql.connector
 from mysql.connector import Error
 from clickhouse_driver import Client
-
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
 
 def databaseactivity(self):
 
@@ -20,3 +21,7 @@ def databaseactivity(self):
  return expecte
 
 
+def clickhouse(self):
+ conn_str = 'clickhouse://default:@localhost/default'
+ engine = create_engine(conn_str)
+ session = sessionmaker(bind=engine)()
