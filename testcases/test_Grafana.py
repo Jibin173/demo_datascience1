@@ -59,10 +59,10 @@ class Test_Grafana:
         self.driver.get(self.grafanaurl)
         self.gf = Grafana_Installation(self.driver)
         Observed_Result = self.gf.Login_grafana()
-        self.logger.info("Observed result for To_verify_that_after_providing_valid_credentials_user_is_able_to_login_the_grafana_dashboard",
+        self.logger.info("Observed result for To_verify_that_after_providing_valid_credentials_user_is_able_to_login_the_grafana_dashboard"+
                           Observed_Result)
         Expected = True
-        self.logger.info("Expected Result  for To_verify_that_after_providing_valid_credentials_user_is_able_to_login_the_grafana_dashboard ",Expected)
+        self.logger.info("Expected Result  for To_verify_that_after_providing_valid_credentials_user_is_able_to_login_the_grafana_dashboard "+Expected)
         assert Observed_Result == Expected
         print("To verify that after providing valid credentials user is able to login the grafana dashboard:True")
         self.logger.info("To verify that after providing valid credentials user is able to login the grafana dashboard:True")
