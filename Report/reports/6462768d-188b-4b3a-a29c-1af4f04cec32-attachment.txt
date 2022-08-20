@@ -1,0 +1,19 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53404/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 127.0.0.1:53404
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53404 "POST /session HTTP/1.1" 200 790
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:test_Grafana.py:27 *************** Test_001 To verify that grafana is up and available in web *****************
+INFO     root:test_Grafana.py:29 ****Opening URL****
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53404/session/ae7df52e2d8c6524b2a93f06b3423004/url {"url": "http://164.52.218.88:3000"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53404 "POST /session/ae7df52e2d8c6524b2a93f06b3423004/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:53404/session/ae7df52e2d8c6524b2a93f06b3423004/title {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53404 "GET /session/ae7df52e2d8c6524b2a93f06b3423004/title HTTP/1.1" 200 19
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:test_Grafana.py:37 To verify that Grafana is up and available in web:True
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:53404/session/ae7df52e2d8c6524b2a93f06b3423004/window {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53404 "DELETE /session/ae7df52e2d8c6524b2a93f06b3423004/window HTTP/1.1" 200 12
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:53404/session/ae7df52e2d8c6524b2a93f06b3423004/window {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53404 "DELETE /session/ae7df52e2d8c6524b2a93f06b3423004/window HTTP/1.1" 404 734
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

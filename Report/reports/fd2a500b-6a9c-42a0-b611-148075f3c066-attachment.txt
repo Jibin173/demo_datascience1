@@ -1,0 +1,43 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 127.0.0.1:53325
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53325 "POST /session HTTP/1.1" 200 790
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:test_AirFlow.py:64 *************** Test_001_Login *****************
+INFO     root:test_AirFlow.py:65 ****Started Home page title test ****
+INFO     root:test_AirFlow.py:67 ****Opening URL****
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/deb455a405289b19dcc088e57400e7e1/url {"url": "http://10.8.60.92:18090/login"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53325 "POST /session/deb455a405289b19dcc088e57400e7e1/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/deb455a405289b19dcc088e57400e7e1/element {"using": "xpath", "value": "//*[@id='username']"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53325 "POST /session/deb455a405289b19dcc088e57400e7e1/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/deb455a405289b19dcc088e57400e7e1/element/cdbd67a7-b3dc-4fd1-98d6-4692d11e7182/value {"text": "vuelogix", "value": ["v", "u", "e", "l", "o", "g", "i", "x"], "id": "cdbd67a7-b3dc-4fd1-98d6-4692d11e7182"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53325 "POST /session/deb455a405289b19dcc088e57400e7e1/element/cdbd67a7-b3dc-4fd1-98d6-4692d11e7182/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/deb455a405289b19dcc088e57400e7e1/element {"using": "xpath", "value": "//*[@id='password']"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53325 "POST /session/deb455a405289b19dcc088e57400e7e1/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/deb455a405289b19dcc088e57400e7e1/element/99982e8f-86e1-4218-a687-6f939fb5b6ef/value {"text": "carinov", "value": ["c", "a", "r", "i", "n", "o", "v"], "id": "99982e8f-86e1-4218-a687-6f939fb5b6ef"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53325 "POST /session/deb455a405289b19dcc088e57400e7e1/element/99982e8f-86e1-4218-a687-6f939fb5b6ef/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/deb455a405289b19dcc088e57400e7e1/element {"using": "xpath", "value": "/html/body/div[3]/div/div/div/div/div[2]/form/div[3]/div/div/input"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53325 "POST /session/deb455a405289b19dcc088e57400e7e1/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/deb455a405289b19dcc088e57400e7e1/element/db83f06e-debf-40d5-a36a-4b11dc863306/click {"id": "db83f06e-debf-40d5-a36a-4b11dc863306"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53325 "POST /session/deb455a405289b19dcc088e57400e7e1/element/db83f06e-debf-40d5-a36a-4b11dc863306/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/deb455a405289b19dcc088e57400e7e1/timeouts {"implicit": 90000}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53325 "POST /session/deb455a405289b19dcc088e57400e7e1/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:53325/session/deb455a405289b19dcc088e57400e7e1/title {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53325 "GET /session/deb455a405289b19dcc088e57400e7e1/title HTTP/1.1" 200 26
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/deb455a405289b19dcc088e57400e7e1/element {"using": "xpath", "value": "/html/body/footer/div/div[1]/a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53325 "POST /session/deb455a405289b19dcc088e57400e7e1/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:53325/session/deb455a405289b19dcc088e57400e7e1/element/8f806e2a-c339-43cd-80c8-f0f30f7b55f9/text {"id": "8f806e2a-c339-43cd-80c8-f0f30f7b55f9"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53325 "GET /session/deb455a405289b19dcc088e57400e7e1/element/8f806e2a-c339-43cd-80c8-f0f30f7b55f9/text HTTP/1.1" 200 18
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:53325/session/deb455a405289b19dcc088e57400e7e1/window {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53325 "DELETE /session/deb455a405289b19dcc088e57400e7e1/window HTTP/1.1" 200 12
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

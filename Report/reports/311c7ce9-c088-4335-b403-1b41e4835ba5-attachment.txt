@@ -1,0 +1,10 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53392/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 127.0.0.1:53392
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53392 "POST /session HTTP/1.1" 200 790
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:test_Clickhouse.py:30 *************** Test_001_To verify that connection towards clickhouse is available *****************
+DEBUG    clickhouse_driver.connection:connection.py:315 Connecting. Database: hittachi. User: default
+DEBUG    clickhouse_driver.connection:connection.py:322 Connecting to 164.52.218.88:9000
+DEBUG    clickhouse_driver.connection:connection.py:434 Connected to ClickHouse server version 21.3.2, revision: 54447
+DEBUG    clickhouse_driver.connection:connection.py:620 Query: SHOW TABLES
+DEBUG    clickhouse_driver.connection:connection.py:588 Block "" send time: 0.000000
