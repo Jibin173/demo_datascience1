@@ -17,7 +17,6 @@ class Grafana_Installation:
         self.logger.info("Grafanapagetitle method was called")
         title = self.driver.title
         print("Title of the page", title)
-        self.logger.debug("returning the title of the page as",title)
         return title
 
     def Login_grafana(self):

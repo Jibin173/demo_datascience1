@@ -24,6 +24,7 @@ class Test_Clickhouse:
         self.driver = setup
         self.ck = ClickHouseAvailibility(self.driver)
         self.ck.databaseactivity()
+        self.driver.close()
 
     @pytest.mark.regression
     def test_09_To_verify_that_required_Schema_is_available(self,setup):
@@ -32,3 +33,4 @@ class Test_Clickhouse:
         self.ck = ClickHouseAvailibility(self.driver)
         observedResult=self.ck.no_of_table()
         Assert.true(observedResult,'66')
+        self.driver.close()

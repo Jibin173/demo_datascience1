@@ -1,0 +1,14 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53496/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 127.0.0.1:53496
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53496 "POST /session HTTP/1.1" 200 789
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:test_Grafana.py:27 *************** Test_001 To verify that grafana is up and available in web *****************
+INFO     root:test_Grafana.py:28 setup method called
+INFO     root:test_Grafana.py:30 ****Opening URL****
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53496/session/1192e9f1791a1fce06eaa691481d3ce5/url {"url": "http://164.52.218.88:3000"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53496 "POST /session/1192e9f1791a1fce06eaa691481d3ce5/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:Grafana_Installation.py:17 Grafanapagetitle method was called
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:53496/session/1192e9f1791a1fce06eaa691481d3ce5/title {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53496 "GET /session/1192e9f1791a1fce06eaa691481d3ce5/title HTTP/1.1" 200 19
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

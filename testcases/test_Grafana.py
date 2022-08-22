@@ -31,11 +31,8 @@ class Test_Grafana:
         self.driver.get(self.baseURL)
         self.gf = Grafana_Installation(self.driver)
         observer_title = self.gf.Grafanapagetitle()
-        self.logger.debug("Observed Result of test_01_To_verify_that_Grafana_is_up_and_available_in_web is "
-                          ,observer_title)
+
         expected_title = "Grafana"
-        self.logger.debug("Expected Result for test_01_To_verify_that_Grafana_is_up_and_available_in_web is "
-                          ,expected_title)
         if observer_title == expected_title:
          assert True
          print("To verify that Grafana is up and available in web:True")
@@ -59,16 +56,14 @@ class Test_Grafana:
         self.driver.get(self.grafanaurl)
         self.gf = Grafana_Installation(self.driver)
         Observed_Result = self.gf.Login_grafana()
-        self.logger.info("Observed result for To_verify_that_after_providing_valid_credentials_user_is_able_to_login_the_grafana_dashboard"+
-                          Observed_Result)
         Expected = True
-        self.logger.info("Expected Result  for To_verify_that_after_providing_valid_credentials_user_is_able_to_login_the_grafana_dashboard "+Expected)
+
         assert Observed_Result == Expected
         print("To verify that after providing valid credentials user is able to login the grafana dashboard:True")
         self.logger.info("To verify that after providing valid credentials user is able to login the grafana dashboard:True")
         self.driver.close()
 
-    @pytest.mark.regression
+
     def test_03_To_verify_that_summary_dashboard_should_be_available(self, setup):
         self.logger.info("*************** To_verify_that_summary_dashboard_should_be_availabl*****************")
         self.logger.info("****Started Home page title test ****")

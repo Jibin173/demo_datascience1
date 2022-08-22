@@ -1,0 +1,17 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:54186/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 127.0.0.1:54186
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:54186 "POST /session HTTP/1.1" 200 791
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:test_AirFlow.py:20 *************** Test_001_Login *****************
+INFO     root:test_AirFlow.py:21 ****Started Home page title test ****
+INFO     root:test_AirFlow.py:23 ****Opening URL****
+WARNING  root:test_AirFlow.py:24 execution
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:54186/session/61a4756dfb7f80fd9e220fce0a27d774/url {"url": "http://10.8.60.92:18090/login"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:54186 "POST /session/61a4756dfb7f80fd9e220fce0a27d774/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:54186/session/61a4756dfb7f80fd9e220fce0a27d774/title {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:54186 "GET /session/61a4756dfb7f80fd9e220fce0a27d774/title HTTP/1.1" 200 29
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:54186/session/61a4756dfb7f80fd9e220fce0a27d774/window {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:54186 "DELETE /session/61a4756dfb7f80fd9e220fce0a27d774/window HTTP/1.1" 200 12
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
